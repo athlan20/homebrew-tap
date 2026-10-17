@@ -5,16 +5,16 @@ class Stoneage < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/athlan20/stoneage/releases/download/v0.1.8/stoneage-client-aarch64-apple-darwin.tar.xz"
-      sha256 "a9ee407bf22d957086122e18fd16a9583528f05f6d61bd0ae0db58eb42fee46a"
+      sha256 "4bfef9929124f05d928dd0f15e6d8700fbda0969ec5b8240b6f36b5e260ff8de"
     end
     if Hardware::CPU.intel?
       url "https://github.com/athlan20/stoneage/releases/download/v0.1.8/stoneage-client-x86_64-apple-darwin.tar.xz"
-      sha256 "0a4694c9343cedde4311f05766bb3b0b1ea784bb1d1d0f14ce14512c8e26627b"
+      sha256 "b2f0db4387a8d986a4f08bbae7fb717e8d8dd7c756dca28d3c7b9f9cbb61eefb"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/athlan20/stoneage/releases/download/v0.1.8/stoneage-client-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "bddd513ec9ffb7480dbbb3421d85c3b070927bf6cb65f2678562551e5bc3e751"
+    sha256 "14e0886c8229dd784235050e8ca3b583779ac6eaca5ecf477654d62e54029030"
   end
 
   BINARY_ALIASES = {
