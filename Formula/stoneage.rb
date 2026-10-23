@@ -1,20 +1,20 @@
 class Stoneage < Formula
   desc "石器时代 2.5 命令行（TUI）客户端"
   homepage "https://github.com/athlan20/stoneage"
-  version "0.2.10"
+  version "0.2.11"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/athlan20/stoneage/releases/download/v0.2.10/stoneage-client-aarch64-apple-darwin.tar.xz"
-      sha256 "fcc994608a09097530eb54ac683291f3862646046af4ba04d408ffcf53beb568"
+      url "https://github.com/athlan20/stoneage/releases/download/v0.2.11/stoneage-client-aarch64-apple-darwin.tar.xz"
+      sha256 "ea94130ba2bf030f698539fc195a8b28fc254df94b2b9ff6031e18dae476ab93"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/athlan20/stoneage/releases/download/v0.2.10/stoneage-client-x86_64-apple-darwin.tar.xz"
-      sha256 "6afafb9315e7c0853688bd10302c497691ca3fb8114c2a47094d0361101e8353"
+      url "https://github.com/athlan20/stoneage/releases/download/v0.2.11/stoneage-client-x86_64-apple-darwin.tar.xz"
+      sha256 "297a4038a21387eeb0f5d8dd3070512f822f94e1078594b18cc95709c6abe323"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/athlan20/stoneage/releases/download/v0.2.10/stoneage-client-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "4e6efc35771815d357b7f9fb986c21b5b7e5d7f95165bf442f1118d7e06dcd3e"
+    url "https://github.com/athlan20/stoneage/releases/download/v0.2.11/stoneage-client-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "c07ef810cb548746973f5e5fa389480d3844be41ebfcf7b25bb2410a11c93efe"
   end
 
   BINARY_ALIASES = {
