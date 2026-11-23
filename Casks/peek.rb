@@ -1,9 +1,9 @@
 cask "peek" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.1.0"
-  sha256 arm:   "99522cf9b6e004f1262ba9b3fde70e302c161be9d93591100c38bd0155cafc49",
-         intel: "473c142e21ca497b8e14b7dd0ab497ef0472c1fcae508a79ac5fd2ff6c52fe13"
+  version "0.1.1"
+  sha256 arm:   "ce13f29c52fd0b6e3eeaa269eebe32d0fe072317266151f73f32092d71f3e8a5",
+         intel: "95ca490a75012a4bdd9f6862ac18af0421e63ff1408ac30b422764f58e31db7f"
 
   url "https://github.com/athlan20/peek/releases/download/v#{version}/Peek-#{version}-#{arch}.dmg"
   name "Peek"
